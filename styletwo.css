@@ -1,0 +1,91 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #E6FB04;
+  z-index: 1;
+}
+
+h1 {
+    margin: 0;
+    position:absolute; 
+    font-style: italic;
+    color: #373fff;
+    bottom: 400px;
+
+}
+
+.about{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 36px;
+
+  
+}
+
+.about:hover, .about:active {background: #FF1493;}
+
+.home{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 0.5em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 36px;
+  
+}
+
+.home:hover, .home:active {background: #FF1493;}
+
+.studio{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 3.5em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 36px;
+  
+}
+
+.studio:hover, .studio:active {background: #FF1493;}
+
+.lab{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 5em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 36px;
+
+  
+}
+.lab:hover, .lab:active {background: #FF1493;}
+
+.wrapper{
+  position:absolute; 
+  left:10px;
+  bottom: 350px;
+  font-size: 23px;
+  margin: 2em;
+}
+
+main{
+    margin: 65px;
+    position:absolute; 
+    color: white;
+    bottom: 249px;
+    background: #FF1493;
+    padding: 0.5rem 1.5rem;
+}
+ul.b {list-style-type: square;}
+
+main:hover {
+  background-color: yellow;
+
+

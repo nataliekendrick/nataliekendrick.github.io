@@ -1,0 +1,109 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #E6FB04;
+  z-index: 1;
+}
+
+h1 {
+    font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #E6FB04;
+  z-index: 1;
+
+}
+a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+}
+
+a {
+  /* Same as before */
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+}
+
+a {
+  /* Same as before */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+a {
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+a:hover {
+  background-position: 0 100%;
+}
+
+.about{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 30px;
+   right: 745px;
+  
+  
+}
+
+
+.home{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 0.5em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 30px;
+  
+}
+
+.studio{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 3.5em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 30px;
+  right: 750px;
+  
+}
+
+.lab{
+  font-style: italic;
+  color: #373fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 3.5em;
+  position: absolute;
+  font-weight: normal;
+  font-size: 30px;
+  right: 650px;
+  
+}
+
+.wrapper{
+  position:absolute; 
+  left:10px;
+  bottom: 460px;
+  font-size: 30 px;
+  margin: 2em;
+}
+
+ul.b {list-style-type: square;}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+
