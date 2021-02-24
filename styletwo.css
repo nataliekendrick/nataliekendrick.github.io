@@ -1,17 +1,10 @@
+
+
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   background-color: #E6FB04;
   z-index: 1;
-}
-
-h1 {
-    margin: 0;
-    position:absolute; 
-    font-style: italic;
-    color: #373fff;
-    bottom: 400px;
-
 }
 
 .about{
@@ -22,8 +15,6 @@ h1 {
   position: absolute;
   font-weight: normal;
   font-size: 36px;
-
-  
 }
 
 .about:hover, .about:active {background: #FF1493;}
@@ -75,17 +66,49 @@ h1 {
   margin: 2em;
 }
 
-main{
-    margin: 65px;
+h1 {
+    margin: 0;
     position:absolute; 
+    font-style: italic;
+    font-size: 30px;
+    color: #373fff;
+    bottom: 400px;
+
+
+}
+
+h2{
+    position:relative; 
+    font-style: italic;
+    color: #373fff;
+    font-size: 30px;
+    top: 520px;
+  }
+  
+a:link {
+  text-decoration: none;
+}
+
+main{
+    position:relative; 
     color: white;
     bottom: 249px;
     background: #FF1493;
-    padding: 0.5rem 1.5rem;
+    padding: 1.5rem;
+    top: 474px;
+}
+
+main2{
+    position:relative; 
+    color: white;
+    top: 543px;
+    background: #FF1493;
+    padding: 1.5rem ;
 }
 ul.b {list-style-type: square;}
 
 main:hover {
   background-color: yellow;
+
 
 
