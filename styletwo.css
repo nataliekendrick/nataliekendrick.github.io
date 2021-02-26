@@ -96,6 +96,9 @@ main{
     background: #FF1493;
     padding: 1.5rem;
     top: 474px;
+
+    line-height: 40px;
+    font-size: 25px;
 }
 
 main2{
@@ -103,8 +106,17 @@ main2{
     color: white;
     top: 543px;
     background: #FF1493;
-    padding: 1.5rem ;
+    padding: 1.5rem 34.5rem;
+
+  }
+
+p{
+  font-size: 25px;
+    position: relative;
+    top: 497px;
+    left: 20px;
 }
+
 ul.b {list-style-type: square;}
 
 main:hover {
