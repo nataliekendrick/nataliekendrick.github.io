@@ -101,21 +101,18 @@ main{
     font-size: 25px;
 }
 
-main2{
+.main2{
     position:relative; 
     color: white;
-    top: 543px;
+        top: 519px;
     background: #FF1493;
-    padding: 1.5rem 34.5rem;
+    padding: 1.5rem ;
 
   }
 
 p{
   font-size: 25px;
-    position: relative;
-    top: 497px;
-    left: 20px;
-}
+    position: relative;}
 
 ul.b {list-style-type: square;}
 
