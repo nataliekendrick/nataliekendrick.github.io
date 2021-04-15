@@ -89,6 +89,10 @@ a:link {
   text-decoration: none;
 }
 
+a:hover{
+  color: white;
+}
+
 main{
     position:relative; 
     color: white;
@@ -104,7 +108,7 @@ main{
 .main2{
     position:relative; 
     color: white;
-        top: 519px;
+    top: 519px;
     background: #FF1493;
     padding: 1.5rem ;
 
@@ -117,7 +121,9 @@ p{
 ul.b {list-style-type: square;}
 
 main:hover {
-  background-color: yellow;
+  background-color: purple;
+
+}
 
 
 
